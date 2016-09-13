@@ -60,7 +60,7 @@ p {
     margin-top: 6px;
 }
 
-h1, h2, h3, h4, label {
+h2, h3, h4, label {
     color: #45474F;
 }
 
@@ -129,7 +129,43 @@ section {
     color: #FFFFFF;
 }
 
-/* Tymczasowy styl dla banera */
+/* Naglowek strony */
+
+.top {
+    height: 60px;
+    background-color: #34495E;
+}
+
+.top a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.logo {
+    float: left;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.main-menu {
+    float: right;
+}
+
+.main-menu li {
+    float: left;
+    line-height: 40px;   
+    padding: 0 10px;  /* miedzy obiektami sumuje sie, czyli jest 20px */
+}
+
+/* Baner strony */
 .banner {
+    color: #FFFFFF;
     background-color: #000000;
+    padding: 200px 0;
+    background: url("../img/top.jpg") 0 140px;
+}
+
+.banner h1 {
+    margin-bottom: 30px;
 }
