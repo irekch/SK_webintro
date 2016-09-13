@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Pierwsza strona</title>
+		<link rel="stylesheet" href="style/style.css" type="text/css" />
 	</head>
 	<body>
 		<!-- Nagłówek Strony -->
@@ -24,33 +25,36 @@
 
 		<!-- Baner Reklamowy -->
 		<section class="banner">
-			<div class="container">
+			<div class="container center-text">
 				<h1>Najlepsza restauracja w mieście</h1>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-				<a href="index.html">Sprawdź Menu</a>
+				<a href="index.html" class="button button-light">Sprawdź Menu</a>
 			</div>
 		</section>
 
 		<!-- Zalety oferty -->
 		<section class="intro">
 			<div class="container">
-				<h2>Dlaczego warto nas wybrać</h2>
+				<h2 class="center-text">Dlaczego warto nas wybrać</h2>
 				<div class="col-one-third">
-					<img src="D:\Code_HTML\SK_webintro\img\ikona_1.png" alt="Ikona1">
+<!--					<img src="D:\Code_HTML\SK_webintro\img\ikona_1.png" alt="Ikona1"> -->
+					<img src=".\img\ikona_1.png" alt="Ikona1">
 					<h3>Najlepsze jedzenie</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
 						sed do eiusmod tempor incididunt ut labore et dolore
 						magna aliqua.</p>
 				</div>
 				<div class="col-one-third">
-					<img src="D:\Code_HTML\SK_webintro\img\ikona_2.png" alt="Ikona2">
+<!--					<img src="D:\Code_HTML\SK_webintro\img\ikona_2.png" alt="Ikona2"> -->
+					<img src=".\img\ikona_2.png" alt="Ikona2">
 					<h3>Najlepsi na świecie kucharze</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
 						sed do eiusmod tempor incididunt ut labore et dolore
 						magna aliqua.</p>
 				</div>
 				<div class="col-one-third">
-					<img src="D:\Code_HTML\SK_webintro\img\ikona_3.png" alt="Ikona3">
+<!--					<img src="D:\Code_HTML\SK_webintro\img\ikona_3.png" alt="Ikona3"> -->
+					<img src=".\img\ikona_3.png" alt="Ikona3">
 					<h3>Organizacja Imprez</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
 						sed do eiusmod tempor incididunt ut labore et dolore
@@ -63,7 +67,8 @@
 		<section class="promo">
 			<div class="container">
 				<div class="col-half">
-					<img src="D:\Code_HTML\SK_webintro\img\dekor.png" alt="dekor" />
+<!--					<img src="D:\Code_HTML\SK_webintro\img\dekor.png" alt="dekor" /> -->
+					<img src=".\img\dekor.png" alt="dekor" />
 				</div>
 				<div class="col-half">
 					<h2>Skorzystaj z naszych promocji</h2>
@@ -77,26 +82,30 @@
 		<!-- Kontakt -->
 		<section class="contact">
 			<div class="container">
-				<h2>Skontaktuj się z nami</h2>
+				<h2 class="center-text">Skontaktuj się z nami</h2>
 				<div class="col-half">
 					<form class="" action="index.html" method="post">
-						<!-- <label for="name">Imię i nazwisko:</label> -->
-						<strong>Imię i nazwisko:</strong><br>
+						<label for="name">
+							<strong>Imię i nazwisko:</strong>
+						</label><br>
 						<input type="text" name="name" value=""><br>
-						<!-- <label for="email">E-mail:</label> -->
-						<strong>E-mail:</strong><br>
+						<label for="email">
+							<strong>E-mail:</strong>							
+						</label><br>
 						<input type="text" name="email" value=""><br>
-						<!-- <label for="password">Password:</label> -->
-						<strong>Password:</strong><br>
-						<!-- <input type="text" name="password" value=""> -->
-						<input type="password" name="password" value=""><br><br>
-						<!-- <button type="submit" name="">Zaloguj</button> -->
-						<input type="submit" name="" value="Submit">
+						<label for="password">
+							<strong>Hasło:</strong>
+						</label><br>
+						<input type="text" name="password"><br>
+						<!-- <input type="password" name="password" value=""><br><br> -->
+						<button type="submit" class="button button-dark">Zaloguj</button>
+						<!-- <input type="submit" name="" value="Zaloguj"> -->
 					</form>
 				</div>
 				<div class="col-half">
 					<h4>Znajdź nas</h4>
-					<img src="D:\Code_HTML\SK_webintro\img\mapa.jpg" alt="Mapa"/>
+					<img src=".\img\mapa.jpg" alt="Mapa"/>
+<!--					<img src="D:\Code_HTML\SK_webintro\img\mapa.jpg" alt="Mapa"/> -->
 				</div>
 				<div class="">
 					Prawa kolumna
