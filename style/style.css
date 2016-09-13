@@ -97,6 +97,7 @@ h3 {
 section {
     clear: both;
     padding: 90px 0px;
+    overflow: auto;
 }
 
 .container {
@@ -168,4 +169,30 @@ section {
 
 .banner h1 {
     margin-bottom: 30px;
+}
+
+/* Sekcja Intro */
+.intro img {
+    margin-bottom: 32px;
+    width: 180px;
+    height: 180px;
+}
+
+.intro h3 {
+    color: #A1D76F;
+    margin-bottom: 10px;
+}
+
+/* Sekcja Promocje */
+.promo {
+    background-color: #D15555
+}
+
+.promo h2 {
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.promo p {
+    color: #EEEEEE;
 }
