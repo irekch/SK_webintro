@@ -84,14 +84,24 @@ h3 {
 }
 
 /* kolumny, kontener, sekcje */
-.col-one-third {
-    width: 33.3333%;
-    float: left;
+
+/* dla ekranow waskich */
+.col-one-third, .col-half {
+    width: 100%;
+    float: none;
 }
 
-.col-half {
-    width: 50%;
-    float: left;
+/* dla ekranow szerszych */
+@media screen and (min-width: 960px){
+    .col-one-third {
+        width: 33.3333%;
+        float: left;
+    }
+
+    .col-half {
+        width: 50%;
+        float: left;
+    }
 }
 
 section {
@@ -137,8 +147,10 @@ section {
     background-color: #34495E;
 }
 
+
 .top a {
-    color: #FFFFFF;
+/*    color: #FFFFFF; */
+    color: #d96459;
     text-decoration: none;
 }
 
@@ -155,7 +167,7 @@ section {
 
 .main-menu li {
     float: left;
-    line-height: 40px;   
+    line-height: 60px;   
     padding: 0 10px;  /* miedzy obiektami sumuje sie, czyli jest 20px */
 }
 
