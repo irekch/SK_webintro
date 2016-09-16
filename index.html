@@ -4,6 +4,8 @@
 		<meta charset="utf-8">
 		<title>Pierwsza strona</title>
 		<link rel="stylesheet" href="style/style.css" type="text/css" />
+		<script src="jquery.js"></script>
+		<script src="scripts.js"></script>
 	</head>
 	<body>
 		<!-- Nagłówek Strony -->
@@ -88,21 +90,22 @@
 						<label for="name">
 							<strong>Imię i nazwisko:</strong>
 						</label><br>
-						<input type="text" name="name" value=""><br>
+						<input type="text" name="name" id="name"><br>
 						<label for="email">
 							<strong>E-mail:</strong>							
 						</label><br>
-						<input type="text" name="email" value=""><br>
+						<input type="text" name="email" id="email"><br>
 						<label for="password">
 							<strong>Hasło:</strong>
 						</label><br>
-						<input type="text" name="password"><br>
+						<input type="text" name="password" id="password"><br>
 						<!-- <input type="password" name="password" value=""><br><br> -->
-						<button type="submit" class="button button-dark">Zaloguj</button>
+						<button type="submit" class="button button-dark" 
+						id="login">Zaloguj</button>
 						<!-- <input type="submit" name="" value="Zaloguj"> -->
 					</form>
 				</div>
-				<div class="col-half">
+				<div class="col-half" id="contact-right">
 					<h4>Znajdź nas</h4>
 					<img src=".\img\mapa.jpg" alt="Mapa"/>
 <!--					<img src="D:\Code_HTML\SK_webintro\img\mapa.jpg" alt="Mapa"/> -->
