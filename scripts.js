@@ -15,4 +15,7 @@ $(document).ready(function(){
         
         $("#contact-right").html(name + "<br>" + email + "<br>" + password);
 	});
+	
+	/* Animacje- przejscia przy wczytywaniu strony */
+	$("p, a, h1, h2, h3, h4, img, form").hide().fadeIn(2000);
 });
